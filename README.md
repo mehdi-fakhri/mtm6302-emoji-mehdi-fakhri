@@ -1,1 +1,1 @@
-# mtm6302-emoji-your-github-mehdi-fakhri
+# mtm6302-emoji-mehdi-fakhri
