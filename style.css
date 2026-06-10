@@ -4,3 +4,19 @@
     flex-wrap: wrap
 }
 
+.emoji-card{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    flex-direction: column;
+   
+
+
+}
+
+.emoji-char{
+    font-size: 5em;
+
+}

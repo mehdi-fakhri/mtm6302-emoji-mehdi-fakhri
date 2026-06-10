@@ -13,13 +13,16 @@ const section = document.getElementById("emoji-grid");
        card.classList.add("emoji-card");
 
         const span = document.createElement("span")
+        span.classList.add("emoji-char");
         span.innerHTML = `&#${item};`
         const text = document.createElement("code")
         text.textContent = item;
         
 
      
-
+card.appendChild(span);
+card.appendChild(text);
+section.appendChild(card);
 
         
     }
