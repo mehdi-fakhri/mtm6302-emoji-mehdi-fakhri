@@ -2,9 +2,6 @@ const emojis =[128992, 128993, 128994, 128995, 128996, 128997,128998, 128999 ,12
 
 
 
-
-
-
 const section = document.getElementById("emoji-grid");
     for (let i = 0; i < emojis.length; i++) {
         const item = emojis[i];
@@ -19,7 +16,6 @@ const section = document.getElementById("emoji-grid");
         text.textContent = item;
         
 
-     
 card.appendChild(span);
 card.appendChild(text);
 section.appendChild(card);
